@@ -1,0 +1,11 @@
+{
+    "name": "hancloud/php-sdk",
+    "description": "hancloud server php sdk",
+    "type": "library",
+    "require": {
+        "phpunit/phpunit": "~5"
+    },
+    "autoload": {
+        "psr-4": {"HanCloud\\": "src"}
+    }
+}
