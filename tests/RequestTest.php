@@ -9,7 +9,7 @@ use HanCloud\Request;
 use \GuzzleHttp\Psr7\Response;
 use PHPUnit\Framework\TestCase;
 
-class TestRequest extends TestCase
+class RequestTest extends TestCase
 {
     protected $hanCloud;
     protected $mockKey = "root";
